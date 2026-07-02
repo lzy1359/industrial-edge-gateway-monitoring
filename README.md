@@ -159,7 +159,7 @@ W25Q64 被划分为两个逻辑区域：
 1. 使用 Keil 打开：
 
    ```text
-   工业边缘网关监控最终版本/MDK-ARM/F4project.uvprojx
+   MDK-ARM/F4project.uvprojx
    ```
 
 2. 检查目标芯片为 `STM32F411CEUx`。
@@ -170,7 +170,7 @@ W25Q64 被划分为两个逻辑区域：
 仓库中也包含已生成的 `F4project.hex`，路径为：
 
 ```text
-工业边缘网关监控最终版本/MDK-ARM/F4project/F4project.hex
+MDK-ARM/F4project/F4project.hex
 ```
 
 ## 配置说明
@@ -182,8 +182,8 @@ W25Q64 被划分为两个逻辑区域：
 - MQTT 主题名
 相关配置和硬编码连接参数主要分布在：
 ```text
-工业边缘网关监控最终版本/ESP8266/pal.h
-工业边缘网关监控最终版本/ESP8266/pal.c
+ESP8266/pal.h
+ESP8266/pal.c
 ```
 
 ## 使用流程
