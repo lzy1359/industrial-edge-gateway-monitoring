@@ -175,26 +175,15 @@ W25Q64 被划分为两个逻辑区域：
 
 ## 配置说明
 
-上传到公开 GitHub 仓库前，请先检查并替换源码中的敏感配置，例如：
+先检查并替换源码中的敏感配置：
 
 - Wi-Fi SSID 和密码
 - 巴法云 UID / Client ID
 - MQTT 主题名
-
 相关配置和硬编码连接参数主要分布在：
-
 ```text
 工业边缘网关监控最终版本/ESP8266/pal.h
 工业边缘网关监控最终版本/ESP8266/pal.c
-```
-
-建议公开仓库中使用占位值，例如：
-
-```c
-#define WIFI_SSID "your_wifi_ssid"
-#define WIFI_PASS "your_wifi_password"
-#define BEMFA_UID  "your_bemfa_uid"
-#define TOPIC_PUB  "stm32"
 ```
 
 ## 使用流程
